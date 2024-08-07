@@ -35,4 +35,7 @@ public class User {
 
     @Column(name = "phone_number")
     private String phoneNo;
+
+    @Column(name = "point")
+    private Long point;
 }

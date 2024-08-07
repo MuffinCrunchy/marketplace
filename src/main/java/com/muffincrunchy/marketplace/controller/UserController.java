@@ -1,6 +1,6 @@
 package com.muffincrunchy.marketplace.controller;
 
-import com.muffincrunchy.marketplace.model.dto.constant.ApiUrl;
+import com.muffincrunchy.marketplace.model.constant.ApiUrl;
 import com.muffincrunchy.marketplace.model.dto.request.UserRequest;
 import com.muffincrunchy.marketplace.model.entity.User;
 import com.muffincrunchy.marketplace.service.UserService;

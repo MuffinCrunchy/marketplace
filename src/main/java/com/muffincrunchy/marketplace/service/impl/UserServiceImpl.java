@@ -34,6 +34,7 @@ public class UserServiceImpl implements UserService {
                 .email(request.getEmail())
                 .birthDate(Date.valueOf(request.getBirthDate()))
                 .phoneNo(request.getPhoneNo())
+                .point(0L)
                 .build();
         return userRepository.saveAndFlush(user);
     }
